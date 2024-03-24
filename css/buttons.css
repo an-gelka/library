@@ -1,0 +1,62 @@
+button {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+  background-color: transparent;
+  color: inherit;
+}
+
+.btn {
+  width: 75px;
+  height: 30px;
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: 1px solid var(--background-color);
+  border-radius: 2px;
+  color: var(--background-color);
+  background-color: transparent;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+}
+
+.btn-bookBlock,
+.btn-disabled {
+  position: absolute;
+  bottom: 15px;
+}
+
+.btn-disabled:disabled {
+  background-color: transparent;
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  cursor: auto;
+}
+
+.btn-findCard {
+  margin: 20px auto 10px auto;
+  width: 246px;
+  height: 44px;
+  padding: 8px 38px;
+  font-size: 2em;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.close:hover{
+  cursor: pointer;
+}
+
+

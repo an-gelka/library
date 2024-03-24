@@ -1,0 +1,302 @@
+.caption {
+  font-family: 'Forum', cursive;
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 1.67em;
+  letter-spacing: 0.6px;
+}
+
+.heading {
+  font-family: 'Forum', cursive;
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 1.25em;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: left;  
+}
+
+.heading-welcome {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-heading {
+  color: var(--background-color);
+  line-height: 1em; /*40px*/
+  text-align: center;
+}
+
+.heading-bookBlock {
+  font-size: 2em;
+  line-height: 1.9em;
+}
+
+.heading-menu {
+  display: block;
+  line-height: 1em;
+  color: var(--brand-color);  
+}
+
+.price {
+  font-size: 2em;
+}
+
+.caption-form {
+  line-height: normal;
+}
+
+.caption-card {
+  text-transform: capitalize;
+}
+
+.modal-header {
+  font-size: 2em;
+  line-height: 1em;
+  letter-spacing: 0.4px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.modal-header-buy {
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 4em;
+  line-height: 0.5em;
+  letter-spacing: 0.8px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.modal-header-my-profile {
+  display: inline-block;
+  margin-bottom: 25px;
+  width: 100%;
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 0.5em;
+  letter-spacing: 0.8px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.dialog-text {
+  font-family: 'Forum', cursive;
+  line-height: 1.67em;
+  letter-spacing: 0.6px;
+  font-size: 2em;
+  }
+
+/*----------------INTER-------------------------*/
+
+.text {
+  font-size: 2em;
+  line-height: 2em; /*40*/
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.header-link {
+  line-height: 2.5em;
+  letter-spacing: normal;
+}
+
+.tagline-about {
+  text-align: center;
+  /* line-height: 2.5em; */
+  letter-spacing: normal;
+}
+
+.tagline-favorites {
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.desc-book {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 2.667em;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.desc-bookName {
+  text-transform: uppercase;
+}
+
+.summary {
+  font-weight: 400;
+}
+
+.tagline-coffeeShop {
+  text-align: center;
+}
+
+.modal-text {  
+  text-align: center;
+  font-size: 1.5em; /*15*/
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33em; /* 20 */
+  color: var(--primary-color);
+  text-transform: capitalize;
+} 
+
+.profile-header {
+  font-weight: 700;
+}
+
+.prompt-text {
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+  font-family: Inter;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary-color);
+}
+
+.prompt-link {
+  font-weight: 700;
+}
+
+.prompt-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.account-icon-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2em; /* 200% */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.modal-buy-text {
+  font-family: Inter;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33em; /* 20*/
+  letter-spacing: 2px;
+  color: var(--light-color);
+}
+
+.sum {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: Inter;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1em; /* 20*/
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.profile-book {
+  font-family: Inter;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.8em; /* 20 */
+  color: var(--primary-color);
+}
+
+.profile-book-list {
+font-size: 2em;
+font-style: normal;
+font-weight: 400;
+line-height: 1em; /* 100% */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.profile-card {
+  color: var(--background-color);
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.profile-card span {
+  color: var(--brand-color);
+}
+
+@media (max-width: 768px) {
+  #CoffeeShop .tagline-coffeeShop {
+   letter-spacing: 1.89px; 
+  }
+}
+
+.menu-name {
+  display: block;
+  width: 199px;
+  text-transform: capitalize;
+}
+
+.tagline-contacts {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.contacts-item {
+  text-transform: capitalize;
+}
+
+.about-getCard {
+  letter-spacing: 0.4px;
+  text-align: end;
+}
+
+@media (max-width: 1120px) {
+  .about-getCard {
+    text-align: center;
+  }
+}
+
+.subtitle {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.card-number{
+  font-weight: 700;
+}
+
+.initials {
+  font-family: Inter;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33em;
+  color: var(--brand-color);
+}
+
+.my-profile-photo{
+text-align: center;
+font-family: Inter;
+font-size: 2em;
+font-style: normal;
+font-weight: 400;
+line-height: 1em;
+text-align: center;
+}
